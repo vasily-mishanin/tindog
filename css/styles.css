@@ -1,0 +1,275 @@
+/* ==========================================Common ==============================================*/
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+/* =====================================Sections=============================================*/
+
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* =====================================Containers==============================================*/
+.container-fluid {
+    padding: 7% 15%;
+
+}
+
+
+/*=================================== Download Buttons ========================================*/
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/*============================================= Page ===========================================*/
+
+
+/* ===============================Navigation Bar================================== */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light";
+}
+
+.dropdown-item {
+    font-size: 0.7rem;
+}
+
+/* ===============================Navigation Bar================================== */
+
+/* ===============================================Title==================================================*/
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+
+}
+
+.big-heading {
+    font-family: 'Montserrat-black', sans-serif !important;
+    font-size: 3.5rem;
+    font-weight: 900 !important;
+    line-height: 1.5;
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    .big-heading {
+        font-size: 2.5rem;
+    }
+}
+
+/*====================================== Title Image ==========================================*/
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    margin-left: 15%;
+    position: absolute;
+    left: 10%;
+}
+
+/* ================================================Title Media==================================================== */
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-left: 0;
+    }
+}
+
+/* ===============================================/Title==================================================*/
+
+/*====================================== Features =============================================*/
+#features {
+    position: relative;
+
+}
+
+.big-icon {
+    font-size: 4rem;
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.big-icon:hover {
+    color: #ff4c68;
+    cursor: pointer;
+
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.features-description {
+
+    font-size: 1rem;
+    color: #8f8f8f;
+
+}
+
+.features-items {
+    padding: 5% 0;
+    line-height: 2rem;
+}
+
+/*============================================ /Features ====================================================*/
+
+/* =======================================Testimonials Section========================================= */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.feedback-item {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+@media(max-width:768px) {
+    .feedback-item {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+/* =======================================/Testimonials Section========================================= */
+
+/* =========================================Press Section==============================================*/
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+@media(max-width:768px) {
+    .press-logo {
+        width: 15%;
+        margin: 10px 10px 25px;
+    }
+}
+
+/* =========================================/Press Section==============================================*/
+
+/* ===========================================Pricing Section========================================= */
+
+
+.pricing-subtitle {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+@media(max-width:768px) {
+    .pricing-subtitle {
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+}
+
+/* ===========================================/Pricing Section========================================= */
+
+/* ======================================= Call to Action ============================================= */
+
+#cta .container-fluid {
+    padding: 7% 15% 2%;
+}
+
+/* ======================================= /Call to Action ============================================= */
+
+/* ============================================Footer====================================================== */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background-color: #fff;
+
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    font-size: 1.2rem;
+
+}
+
+.icons-container .footer-icon {
+    margin: 0 15px;
+}
+
+
+.footer-copyright {
+    padding: 2% 0 0;
+    color: #8f8f8f;
+}
+
+/* ============================================/Footer====================================================== */
